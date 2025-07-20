@@ -88,3 +88,4 @@ def gpt4o_mini_agent(user_input):
 
 # Example usage
 user_input = input("Ask me something: ")
+gpt4o_mini_agent(user_input)
