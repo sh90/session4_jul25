@@ -11,11 +11,6 @@ openai.api_key = data_info.open_ai_key
 RAPIDAPI_KEY = '766ea387a6msh84ff46479ed9b4bp18b495jsna547d73e1ef5'
 IMDB_API_URL = "https://imdb236.p.rapidapi.com/api/imdb/autocomplete"
 
-AVIATIONSTACK_API_KEY = "56420807c490bd835b6e922d2b983fbb"
-AVIATIONSTACK_URL = "http://api.aviationstack.com/v1/flights"
-
-
-
 def call_imdb_api(movie_title):
     headers = {
         'x-rapidapi-host': 'imdb236.p.rapidapi.com',
